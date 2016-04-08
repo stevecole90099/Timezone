@@ -11,11 +11,7 @@
  
 #ifndef Timezone_h
 #define Timezone_h
-#if ARDUINO >= 100
-#include <Arduino.h> 
-#else
-#include <WProgram.h> 
-#endif
+#include <application.h>
 #include <Time.h>              //http://www.arduino.cc/playground/Code/Time
 
 //convenient constants for dstRules
