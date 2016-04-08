@@ -12,7 +12,6 @@
 #ifndef Timezone_h
 #define Timezone_h
 #include <application.h>
-#include <Time.h>              //http://www.arduino.cc/playground/Code/Time
 
 //convenient constants for dstRules
 enum week_t {Last, First, Second, Third, Fourth}; 
